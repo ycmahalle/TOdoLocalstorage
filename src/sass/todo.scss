@@ -1,0 +1,71 @@
+body{
+    background-color: #193c58;
+    color: white;
+    overflow-x: hidden !important;
+}
+html{
+    overflow-x: hidden !important;
+}
+.maindiv{
+    .childdiv{
+        .img{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
+.add-form{
+    box-shadow: 1px 2px 8px black;
+    z-index: 11;
+    
+    .img {
+        img{
+            width: 120px;
+            border-radius: 50%;
+        }
+    }
+
+    .form{
+         .input {
+             display: flex;
+             justify-content: space-between;
+             input{
+                 border: none;
+                 outline: none;
+             }
+             .addBtn{
+                 line-height: 2px;
+                //  margin-bottom:4px  !important;
+                  transform: scale(1.4);
+                 font-weight: 800;
+
+
+             }
+         }
+    }
+    .listItem{
+        .item{
+            
+            display: flex;
+            width: 100%;
+            background-color: rgb(223, 240, 231);
+            .btn{
+                
+                outline: none !important;
+                .remove{
+                    
+                    outline: none !important;
+                    // float: right !important;
+                    font-weight: 800;
+                    // margin-right: 11px;
+                    &:hover{
+                        color: rgb(243, 74, 74) !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+1. Create new Project 
+    create-react-app appName
+
+2.Install Bootstrap 
+      npm i bootstrap
+
+3. Replace public and src folder with these two folder in zip 
+
+
+npm start 

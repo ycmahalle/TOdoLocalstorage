@@ -1,0 +1,79 @@
+body {
+  background-color: #193c58;
+  color: white;
+  overflow-x: hidden !important;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+.maindiv .childdiv .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.add-form {
+  -webkit-box-shadow: 1px 2px 8px black;
+          box-shadow: 1px 2px 8px black;
+  z-index: 11;
+}
+
+.add-form .img img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.add-form .form .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.add-form .form .input input {
+  border: none;
+  outline: none;
+}
+
+.add-form .form .input .addBtn {
+  line-height: 2px;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  font-weight: 800;
+}
+
+.add-form .listItem .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #dff0e7;
+}
+
+.add-form .listItem .item .btn {
+  outline: none !important;
+}
+
+.add-form .listItem .item .btn .remove {
+  outline: none !important;
+  font-weight: 800;
+}
+
+.add-form .listItem .item .btn .remove:hover {
+  color: #f34a4a !important;
+}
+/*# sourceMappingURL=todo.css.map */
